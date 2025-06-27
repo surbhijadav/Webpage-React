@@ -40,7 +40,8 @@ const ratingClass = rating > 8.5 ? styles.super_hit : styles.average;
                 <img
                src={img_url} alt={name}  width="40%" height="40%" className="img" />
                 </div>
-                <div className={styles["card-content"]}>
+                {/* <div className={styles["card-content"]}> */}
+                <div className="flex flex-col py-[3.2rem] px-[1.2rem] gap-6">
                 <h2>Name:{name} </h2>
                 <Rating>Rating:
                     <span className={`${styles.rating} ${ratingClass}`}>{rating}</span></Rating>

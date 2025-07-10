@@ -7,8 +7,10 @@
 // import { LiftingState } from './components/LiftStateUp';
 //  import { ToggleSwitch } from "./components/projects/ToggleSwitch/ToggleSwitch";
 
-import { ToDo } from "./components/projects/TO-DO/ToDo";
-
+// import { ToDo } from "./components/projects/TO-DO/ToDo";
+// import ShortCircuitExample from "./components/shortCircuit";
+// import { Counter } from "./components/hooks/useState";
+import { Challenge } from "./components/hooks/useState/Challenge";
 
 export const App = () => {
   return (
@@ -19,7 +21,10 @@ export const App = () => {
       {/* <DerivedState/> */}
       {/* <LiftingState /> */}
       {/* <ToggleSwitch /> */}
-      <ToDo/>
+      {/* <ToDo/> */}
+      {/* <ShortCircuitExample/> */}
+      {/* <Counter/> */}
+      <Challenge/>
     </section>
   );
 };

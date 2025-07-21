@@ -7,7 +7,17 @@
 // import { LiftingState } from './components/LiftStateUp';
 //  import { ToggleSwitch } from "./components/projects/ToggleSwitch/ToggleSwitch";
 
-import { CleanUp } from "./components/hooks/useEffect/CleanUp";
+// import { BioProvider } from "./components/hooks/contextAPI";
+// import { BioProvider } from "./components/hooks/contextAPI";
+// import { ReducerComp } from "./components/hooks/useReducer";
+import { DarkLight, ThemeProvider } from "./components/projects/DarkLightMode/DarkLight";
+// import { Home } from "./components/hooks/contextAPI/home";
+// import { ParentComponent } from "./components/PropsDrilling";
+
+// import { UserId } from "./components/hooks/useId";
+// import { UseRef } from "./components/hooks/useRef/useRef";
+
+// import { CleanUp } from "./components/hooks/useEffect/CleanUp";
 
 // import { EffectChallenge } from "./components/hooks/useEffect/EffectChallenge";
 
@@ -25,7 +35,7 @@ import { CleanUp } from "./components/hooks/useEffect/CleanUp";
 
 export const App = () => {
   return (
-    <section >
+    <>
       {/* <h1 className="card-heading">List of Best Neetflix Series</h1> */}
       {/* <Netflix /> */}
       {/* <State/> */}
@@ -43,8 +53,19 @@ export const App = () => {
       {/* <ContactForm / > */}
       {/* <ReactUseEffect/> */}
       {/* <EffectChallenge /> */}
-      <CleanUp />
-    </section>
+      {/* <CleanUp /> */}
+      {/* <UseRef/ > */}
+      {/* <UserId /> */}
+      {/* <ParentComponent /> */}
+      {/* below three lines are same */}
+      {/* <BioProvider>
+      <Home />
+      </BioProvider> */}
+       <ThemeProvider>
+        <DarkLight/>
+     </ThemeProvider>  
+     {/* <ReducerComp/> */}
+    </>
   );
 };
 

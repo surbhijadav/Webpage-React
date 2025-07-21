@@ -19,9 +19,12 @@ jobs:
 
       - name: Install dependencies
         run: bun install
+        working-directory: React
 
       - name: Run build
         run: bun run build
+        working-directory: React
 
       - name: Run lint
-        run: bun run lint 
+        run: bun run lint
+        working-directory: React 

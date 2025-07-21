@@ -14,7 +14,7 @@ useEffect(()=>{
     return(
         <div className="container">
             <div className="counter">
-                <p>My Name is Subhu</p>
+                <p>My Name is gotu</p>
                 <div className="odometer" id="odometer">{count}</div>
             </div>
             <h3>

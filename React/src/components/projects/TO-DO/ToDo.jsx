@@ -6,13 +6,6 @@ import { ToDoDateTime } from "./ToDoDateTime";
 import { getLocalStorageTodoData,setLocalStorageTodoData } from "./ToDoLocalStorage";
 
 
-
-const getLocalStorageTodoData = () => {
-    const rawTodos = localStorage.getItem(TodoKey);
-    if(!rawTodos) return[];
-    
-    return JSON.parse(rawTodos);
-};
 export const ToDo = () => {
     const [task,setTask] = useState(() =>getLocalStorageTodoData());
 

@@ -1,4 +1,4 @@
-import { useReducer, useState } from "react"
+import { useReducer } from "react"
 export const ReducerComp = () =>{
     const reducer =  (state,action) => {
         if(action.type === "INCREMENT"){

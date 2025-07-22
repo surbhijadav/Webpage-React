@@ -7,12 +7,21 @@
 // import { LiftingState } from './components/LiftStateUp';
 //  import { ToggleSwitch } from "./components/projects/ToggleSwitch/ToggleSwitch";
 
+import { CleanUp } from "./components/hooks/useEffect/CleanUp";
+
+// import { EffectChallenge } from "./components/hooks/useEffect/EffectChallenge";
+
+// import { ReactUseEffect } from "./components/hooks/useEffect";
+// import { ContactForm } from "./components/hooks/useState/ContactForm";
+// import { LoginForm } from "./components/hooks/useState/LoginForm";
+
 // import { ToDo } from "./components/projects/TO-DO/ToDo";
 // import ShortCircuitExample from "./components/shortCircuit";
 // import { Counter } from "./components/hooks/useState";
 // import { Challenge } from "./components/hooks/useState/Challenge";
 // import { RegistrationForm } from "./components/hooks/useState/Registration";
-import { RegistrationFormReact } from "./components/hooks/useState/RegistrationReact";
+// import ControlledForm from "./components/hooks/useState/controlled";
+// import { RegistrationFormReact } from "./components/hooks/useState/RegistrationReact";
 
 export const App = () => {
   return (
@@ -27,8 +36,14 @@ export const App = () => {
       {/* <ShortCircuitExample/> */}
       {/* <Counter/> */}
       {/* <Challenge/> */}
+      {/* <Controlled / > */}
       {/* <RegistrationForm/> */}
-      <RegistrationFormReact />
+      {/* <RegistrationFormReact /> */}
+      {/* <LoginForm / > */}
+      {/* <ContactForm / > */}
+      {/* <ReactUseEffect/> */}
+      {/* <EffectChallenge /> */}
+      <CleanUp />
     </section>
   );
 };

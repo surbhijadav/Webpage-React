@@ -3,7 +3,7 @@ import { useState } from "react"
 // const users = []
 
 export const DerivedState = () =>{
-    const [users , setUsers] = useState([
+    const [users] = useState([
         { name:"Subhu",age : 18},
         { name:"Khushu",age : 19},
         { name:"Tamu",age : 17},

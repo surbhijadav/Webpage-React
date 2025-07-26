@@ -7,10 +7,16 @@
 // import { LiftingState } from './components/LiftStateUp';
 //  import { ToggleSwitch } from "./components/projects/ToggleSwitch/ToggleSwitch";
 
+import UseCallback from "./components/hooks/Memo/UseCallBack";
+
+// import MemoParentComponent from "./components/hooks/Memo/UseMemo";
+
+// import { ReactMemo } from "./components/hooks/Memo/ReactMemo";
+
 // import { BioProvider } from "./components/hooks/contextAPI";
 // import { BioProvider } from "./components/hooks/contextAPI";
 // import { ReducerComp } from "./components/hooks/useReducer";
-import { DarkLight, ThemeProvider } from "./components/projects/DarkLightMode/DarkLight";
+// import { DarkLight, ThemeProvider } from "./components/projects/DarkLightMode/DarkLight";
 // import { Home } from "./components/hooks/contextAPI/home";
 // import { ParentComponent } from "./components/PropsDrilling";
 
@@ -61,10 +67,13 @@ export const App = () => {
       {/* <BioProvider>
       <Home />
       </BioProvider> */}
-       <ThemeProvider>
+       {/* <ThemeProvider>
         <DarkLight/>
-     </ThemeProvider>  
+     </ThemeProvider>   */}
      {/* <ReducerComp/> */}
+     {/* <ReactMemo /> */}
+     {/* <MemoParentComponent /> */}
+     <UseCallback />
     </>
   );
 };
